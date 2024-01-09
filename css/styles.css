@@ -1,0 +1,101 @@
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ......................... 12
+2. Variables ...................... 16
+3. Estilos generales .............. 27
+4. Créditos ....................... 37
+-------------------- */
+
+
+/* ----- Fuente ----- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+/* ----- Variables ----- */
+* {
+	--primary-font-family: 'Montserrat', sans-serif;
+	--body-bg-color: #212020;
+	--card-bg-color: #242323;
+	--text-color: #c2c2c2;
+	--fb-bg-color: #456da4;
+	--li-bg-color: #0984c6;
+	--ig-bg-color: #006184;
+	--lh-text: 22px;
+}
+
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body {
+	font-family: var(--primary-font-family);
+	background-color: var(--body-bg-color);
+	color: var(--text-color);
+	line-height: var(--lh-text);
+
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card{
+	background-color:var(--card-bg-color);
+	width: 40%;
+	height: 80%;
+	border-radius: 5%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.card_header{
+	margin-top: 10%;
+	object-fit: contain;
+
+}
+img {
+	width: 8rem;
+	border-radius: 50%;
+}
+.card_location{
+	background-color: var(--body-bg-color);
+	padding: 2%;
+	border-radius: 16px;
+}
+
+.card_description{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+
+}
+.card_foter{
+	background-color: var(--body-bg-color);
+	width: 100%;
+	display: inline;
+	height: 100%;
+
+}
+.card_icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	
+
+}
+.fab{
+	color: var(--fb-bg-color);
+}
+
+
+
+/* ------------------------
+Diseño: UIDesign Daily🎨
+Desarrollo: Frontend Club🔥
+--------------------------- */
